@@ -17,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Ecommerce-Website">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
