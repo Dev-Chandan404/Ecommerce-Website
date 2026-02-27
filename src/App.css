@@ -1,13 +1,12 @@
-
-*
-*::before,
+* *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -60,7 +59,7 @@ html, body {
 .imgbox {
   height: 500px;
   width: 100%;
-  background-image: url(/public/main.jpg);
+  background-image: url('./assets/main.jpg');
   background-size: 100% 100%;
 }
 
@@ -196,7 +195,8 @@ h3 {
 
 .b1:hover {
   background-color: #212529;
-  transition-delay: 100ms;transition-behavior: unset;
+  transition-delay: 100ms;
+  transition-behavior: unset;
   color: white;
 }
 
@@ -760,117 +760,135 @@ h3 {
     border: 1px solid #ddd;
     border-radius: 8px 8px 8px 8px;
   }
+
   .product-container {
-  height: 570px;
-  width: 100%;
-  display:block;
-  justify-content: space-between;
-}
-.product-image {
-  height: 100%;
-  width: 80%;
-  margin-left: 10%;
-}
-.d1 {
-  visibility: hidden;
-}
-.product-category {
-  font-size: 35px;
-  width: 100%;
-  color: rgba(0, 0, 0, 0.684);
-  white-space: normal;
-  overflow: visible;
-  font-weight: lighter;
-  text-overflow: unset;
-}
-.product-details {
-  height: 100%;
-  width: 100%;padding: 10px;
-}
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-.card{
-  width: 100%;
-}
-.product-price {
-  height: 40px;
-  font-size: 30px;
-  align-content: center;
-  color: #333;
-}
-.container-fluid{
-  font-size: 35px;
-}
-.item-list {
-  height: auto;
-  width: 100%;
-  border-radius: 8px 8px;
-  border-bottom: none;
-  border: 1px solid #d2d2d2;
-}
-.container{
-  display: flex;flex-wrap: wrap;
-  width: 100%;
-}
-.sp1 {
-  height: 80%;
-  width: 100%;
-  margin: 10px auto;
-}
+    height: 570px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+  }
 
-.sp2 {
-  height: 80%;
-  width: 400px;
-  text-align: justify;
-  color: #212529;
-  margin: 10px auto;
-}
+  .product-image {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+  }
 
-.sp2t {
-  width: 250px;
-  margin-left: 30px;
-  margin-top: 10px;
-  font-weight: bolder;
-  font-size: 16px;
-  color: rgb(33, 37, 41);
-  line-height: 24px;
-}
+  .d1 {
+    visibility: hidden;
+  }
 
-.sp3 {
-  height: 80%;
-  width: 200px;
-  margin: 10px auto;
-  text-align: center;
-  justify-content: space-evenly;
-}
+  .product-category {
+    font-size: 35px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.684);
+    white-space: normal;
+    overflow: visible;
+    font-weight: lighter;
+    text-overflow: unset;
+  }
 
-.qwerty {
-  height: auto;
-  align-content: space-between;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-.product-img {
-  width: 100px;
-  height: 75px;
-  display: block;
-  margin: 10px auto;
-}
-.show-product {
-  height: 100%;
-  width: 100%;
-  display: block;
-}
-.order-summery {
-  height: 280px;
-  width: 72%;margin: 10px auto;
-}
+  .product-details {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .product-price {
+    height: 40px;
+    font-size: 30px;
+    align-content: center;
+    color: #333;
+  }
+
+  .container-fluid {
+    font-size: 35px;
+  }
+
+  .item-list {
+    height: auto;
+    width: 100%;
+    border-radius: 8px 8px;
+    border-bottom: none;
+    border: 1px solid #d2d2d2;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sp1 {
+    height: 80%;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .sp2 {
+    height: 80%;
+    width: 400px;
+    text-align: justify;
+    color: #212529;
+    margin: 10px auto;
+  }
+
+  .sp2t {
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    line-height: 24px;
+  }
+
+  .sp3 {
+    height: 80%;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .qwerty {
+    height: auto;
+    align-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .product-img {
+    width: 100px;
+    height: 75px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .show-product {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .order-summery {
+    height: 280px;
+    width: 72%;
+    margin: 10px auto;
+  }
 }
 
 .my-toast {

@@ -46,25 +46,25 @@ const About = () => {
       <div className="acd">
         <div className="cd">
           <div className="cd1">
-            <img src="./A1.jpeg" className="img" />
+            <img src={require("../assets/images/A1.jpeg")} className="img" />
           </div>
           <div className="cd2">Mens's Clothing</div>
         </div>
         <div className="cd">
           <div className="cd1">
-            <img src="./A2.jpeg" className="img" />
+            <img src={require("../assets/images/A2.jpeg")} className="img" />
           </div>
           <div className="cd2">Women's Clothing</div>
         </div>
         <div className="cd">
           <div className="cd1">
-            <img src="./A3.webp" className="img" />
+            <img src={require("../assets/images/A3.webp")} className="img" />
           </div>
           <div className="cd2">Jewelery</div>
         </div>
         <div className="cd">
           <div className="cd1">
-            <img src="./A4.jpeg" className="img" />
+            <img src={require("../assets/images/A4.jpeg")} className="img" />
           </div>
           <div className="cd2">Electronics</div>
         </div>
