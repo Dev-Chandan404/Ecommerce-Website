@@ -1,4 +1,5 @@
-* *::before,
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -907,4 +908,263 @@ h3 {
 
 .my-toast-progress {
   background: green;
+}
+
+/* ===== RESPONSIVE FIX FOR 575px WIDTH (ADDED WITHOUT CHANGING ANY ORIGINAL STYLES) ===== */
+@media screen and (max-width: 575px) {
+  /* Fix container widths and margins */
+  .container,
+  .container-fluid,
+  .acd,
+  .cp,
+  .cart-div,
+  .d1,
+  .ad {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Navbar adjustments */
+  .box {
+    height: auto;
+    min-height: 70px;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+  }
+  .box1 {
+    width: 100%;
+    margin: 5px auto;
+    justify-content: center;
+  }
+  .btn {
+    padding: 10px;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  /* Hero image */
+  .imgbox {
+    height: auto;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+  }
+  .imgtxt {
+    padding: 20px;
+    height: auto;
+    position: relative;
+    text-align: left;
+  }
+  .t {
+    font-size: 28px;
+    margin-top: 0;
+    padding: 0;
+  }
+  .t2 {
+    display: none;
+  }
+
+  /* Filter buttons */
+  .box2 {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .b1 {
+    margin: 5px;
+    font-size: 14px;
+    padding: 0 12px;
+  }
+
+  /* Cards */
+  .card-container {
+    gap: 15px;
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .description {
+    height: auto;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* Product detail page */
+  .product-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .product-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .product-details {
+    width: 100%;
+    padding: 10px;
+  }
+  .product-title {
+    font-size: 20px;
+  }
+  .product-category {
+    font-size: 28px;
+  }
+  .product-price {
+    font-size: 28px;
+  }
+  .product-info {
+    font-size: 16px;
+  }
+
+  /* About / ad section */
+  .acd {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .cd {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    margin: 10px auto;
+  }
+  .cd2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .ad {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Cart page */
+  .cart-div {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+  .cart1 {
+    font-size: 28px;
+    height: auto;
+    padding: 15px 0;
+  }
+  .carttext {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .buy1 {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 22px;
+    height: auto;
+  }
+
+  /* Cart items list */
+  .product-list {
+    flex-direction: column;
+  }
+  .item-list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .show-product {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .sp1, .sp2, .sp3 {
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+  }
+  .sp2t {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .order-summery {
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  /* Slider (marquee) */
+  .d1 {
+    overflow-x: auto;
+    height: auto;
+  }
+  .d2 {
+    height: auto;
+    overflow-x: auto;
+  }
+  .d2 .slide-track {
+    animation: none;
+    width: auto;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .d2 .slide {
+    width: 180px;
+    margin-left: 10px;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  /* Buttons */
+  .btn4, .btn5 {
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .btn3 {
+    width: 90px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  /* Headings */
+  .ht {
+    width: auto;
+    font-size: 20px;
+    height: auto;
+    padding: 10px;
+  }
+  .btn2 {
+    width: auto;
+  }
+
+  /* Contact form */
+  .cp {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+  }
+  .ip {
+    font-size: 14px;
+  }
+
+  /* Toast */
+  .my-toast {
+    width: 160px;
+    font-size: 14px;
+  }
 }
