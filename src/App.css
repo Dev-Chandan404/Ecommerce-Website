@@ -1085,6 +1085,8 @@ h3 {
   .show-product {
     flex-direction: column;
     height: auto;
+    width: 100%;
+    display: block;
     padding: 10px;
   }
   .sp1, .sp2, .sp3 {

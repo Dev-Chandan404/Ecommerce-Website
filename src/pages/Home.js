@@ -270,31 +270,35 @@ const Home = () => {
           type="button"
           value="All"
           onClick={() => setFilter("All")}
-          className="b1"
+                className="btn btn-outline-dark mx-2  d-flex justify-content-center align-items-center gap-2 w-auto"
         />
         <input
           type="button"
           value="Men's Clothing"
           onClick={() => setFilter("Men's Clothing")}
-          className="b1"
+                          className="btn btn-outline-dark mx-2  d-flex justify-content-center align-items-center gap-2 w-auto"
+
         />
         <input
           type="button"
           value="Women's Clothing"
           onClick={() => setFilter("Women's Clothing")}
-          className="b1"
+                          className="btn btn-outline-dark mx-2  d-flex justify-content-center align-items-center gap-2 w-auto"
+
         />
         <input
           type="button"
           value="Jewelery"
           onClick={() => setFilter("Jewelery")}
-          className="b1"
+                          className="btn btn-outline-dark mx-2  d-flex justify-content-center align-items-center gap-2 w-auto"
+
         />
         <input
           type="button"
           value="Electronics"
           onClick={() => setFilter("Electronics")}
-          className="b1"
+                          className="btn btn-outline-dark mx-2  d-flex justify-content-center align-items-center gap-2 w-auto"
+
         />
       </div>
 
