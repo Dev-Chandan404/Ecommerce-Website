@@ -30,7 +30,7 @@
 <br/>
 
 <a href="https://dev-chandan404.github.io/Ecommerce-Website/">
-  <img src="https://api.screenshotone.com/take?url=https://dev-chandan404.github.io/Ecommerce-Website/&viewport_width=1280&viewport_height=720&format=jpg&image_quality=90" alt="Ecommerce Website Preview" width="90%" />
+  <img src="./public/re.png" alt="Ecommerce Website Preview"/>
 </a>
 
 *A modern React-powered storefront built for real-world shopping experiences*
